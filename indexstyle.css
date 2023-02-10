@@ -5,6 +5,7 @@ img {
     margin-right: auto;
     width: 500px;
     height: 500px;
+    border: 2px solid #ffffff;
     object-fit: cover;
   }
   
