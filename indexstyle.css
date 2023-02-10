@@ -6,7 +6,7 @@ body {margin:0;}
 }
 .sui {
   float: left;
-  border: white;
+  border: 4px solid rgb(161, 48, 48);
   margin-right: 8px;
   margin-top: 6px;
   padding: 2px;
@@ -14,6 +14,7 @@ body {margin:0;}
 .we {
   width: 2000px;
   height: 500px;
+  border: 2px solid #ffffff;
   object-fit: fill;
 }
 img {
@@ -22,7 +23,7 @@ img {
     margin-right: auto;
     width: 500px;
     height: 500px;
-    border: 2px solid #ffffff;
+    border: 2px solid #cb334c;
     object-fit: cover;
   }
   
