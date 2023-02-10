@@ -4,6 +4,18 @@ body {margin:0;}
   height:50px;
   border: none;
 }
+.sui {
+  float: left;
+  border: white;
+  margin-right: 8px;
+  margin-top: 6px;
+  padding: 2px;
+}
+.we {
+  width: 2000px;
+  height: 500px;
+  object-fit: fill;
+}
 img {
     display: block;
     margin-left: auto;
