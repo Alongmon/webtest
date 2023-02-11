@@ -127,6 +127,7 @@ body {margin:0;}
           * {
             box-sizing: border-box;
           }
+<<<<<<< HEAD
           
           body {
             margin: 0;
@@ -184,6 +185,9 @@ body {margin:0;}
             box-sizing: border-box;
           }
           
+=======
+
+>>>>>>> 46eb7a5882c1989307b75c96e41a502a6ce37f51
           body {
             margin: 0;
             font-family: Arial;
@@ -194,6 +198,10 @@ body {margin:0;}
             float: left;
             width: 25%;
             padding: 10px;
+<<<<<<< HEAD
+=======
+            size: 100%;
+>>>>>>> 46eb7a5882c1989307b75c96e41a502a6ce37f51
           }
           
           /* Style the images inside the grid */
@@ -215,6 +223,7 @@ body {margin:0;}
           
           /* The expanding image container */
           .container {
+<<<<<<< HEAD
             position: relative;
             display: none;
           }
@@ -226,6 +235,10 @@ body {margin:0;}
             left: 15px;
             color: white;
             font-size: 20px;
+=======
+            position:sticky;
+            display: none;
+>>>>>>> 46eb7a5882c1989307b75c96e41a502a6ce37f51
           }
           
           /* Closable button inside the expanded image */
