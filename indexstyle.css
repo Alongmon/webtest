@@ -1,14 +1,16 @@
 body {margin:0;}
-#logo {
-  text-indent: 2px;
-  background-image: url('zyro-image.png');
-  width: 500px;
-  height: 500px;
+
+#logo-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  object-fit: scale-down;
+  border: 0px solid none;
 }
 #insta {
   width: 50px;
   height:50px;
-  border: none;
+
 }
 .sui {
   float: left;
@@ -30,7 +32,7 @@ img {
     width: 500px;
     height: 500px;
     border: 2px solid #cb334c;
-    object-fit: cover;
+    object-fit: fill;
   }
   
   h1 {padding: 2px; border: 4px solid rgb(200, 72, 72); margin: 0px; color:rgb(165, 73, 89); text-align: center;}
