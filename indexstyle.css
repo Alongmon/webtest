@@ -1,8 +1,9 @@
 body {margin:0;}
 #logo {
-  position: fixed;
-  top: 0;
-  left: 0;
+  text-indent: 2px;
+  background-image: url('zyro-image.png');
+  width: 500px;
+  height: 500px;
 }
 #insta {
   width: 50px;
