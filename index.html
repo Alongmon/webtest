@@ -26,6 +26,18 @@
           <a href="gallery.html">Gallery</a>
 
     </div>
+    <script>
+      const navbar = document.querySelector('.navbar');
+let top = navbar.offsetTop;
+function stickynavbar() {
+  if (window.scrollY >= top) {    
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');    
+  }
+}
+window.addEventListener('scroll', stickynavbar);
+    </script>
     
     <div class="main">
       <br>
