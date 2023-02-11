@@ -126,37 +126,6 @@ img {
             box-sizing: border-box;
           }
 
-          
-          /* The grid: Four equal columns that floats next to each other */
-
-          
-          /* Clear floats after the columns */
-          .row:after {
-            content: "";
-            display: table;
-            clear: both;
-          }
-          
-          /* The expanding image container */
-          .container {
-            position: fixed;
-            display: none;
-          }
-
-          
-          /* Closable button inside the expanded image */
-          .closebtn {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            color: white;
-            font-size: 35px;
-            cursor: pointer;
-          }
-          * {
-            box-sizing: border-box;
-          }
-          
           body {
             margin: 0;
             font-family: Arial;
@@ -166,7 +135,7 @@ img {
           .column {
             float: left;
             padding: 10px;
-            size: 50%;
+            size: 100%;
           }
           
           /* Style the images inside the grid Dont delete*/
@@ -186,7 +155,7 @@ img {
           /* The expanding image container */
           .container {
             position:sticky;
-            display:contents;
+            display: none;
           }
           
           /* Closable button inside the expanded image */
