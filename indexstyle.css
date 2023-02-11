@@ -25,7 +25,7 @@ body {margin:0;}
   border: 2px solid #ffffff;
   object-fit: fill;
 }
- img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -127,67 +127,6 @@ body {margin:0;}
           * {
             box-sizing: border-box;
           }
-<<<<<<< HEAD
-          
-          body {
-            margin: 0;
-            font-family: Arial;
-          }
-          
-          /* The grid: Four equal columns that floats next to each other */
-          .column {
-            float: left;
-            width: 100%;
-            padding: 10px;
-          }
-          
-          /* Style the images inside the grid */
-          .column img {
-            cursor: pointer; 
-          }
-          
-          .column img:hover {
-            opacity: 1;
-          }
-          
-          /* Clear floats after the columns */
-          .row:after {
-            content: "";
-            display: table;
-            clear: both;
-          }
-          
-          /* The expanding image container */
-          .container {
-            position: relative;
-            display: none;
-          }
-          
-          /* Expanding image text */
-          #imgtext {
-            position: absolute;
-            bottom: 15px;
-            left: 15px;
-            color: white;
-            font-size: 20px;
-          }
-          
-          /* Closable button inside the expanded image */
-          .closebtn {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            color: white;
-            font-size: 35px;
-            cursor: pointer;
-          }
-          * {
-            box-sizing: border-box;
-          }
-          
-=======
-
->>>>>>> 46eb7a5882c1989307b75c96e41a502a6ce37f51
           body {
             margin: 0;
             font-family: Arial;
@@ -198,10 +137,7 @@ body {margin:0;}
             float: left;
             width: 25%;
             padding: 10px;
-<<<<<<< HEAD
-=======
             size: 100%;
->>>>>>> 46eb7a5882c1989307b75c96e41a502a6ce37f51
           }
           
           /* Style the images inside the grid */
