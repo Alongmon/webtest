@@ -125,11 +125,7 @@ img {
           * {
             box-sizing: border-box;
           }
-          
-          body {
-            margin: 0;
-            font-family: Arial;
-          }
+
           
           /* The grid: Four equal columns that floats next to each other */
 
@@ -169,19 +165,16 @@ img {
           /* The grid: Four equal columns that floats next to each other */
           .column {
             float: left;
-            width: 25%;
             padding: 10px;
+            size: 50%;
           }
           
-          /* Style the images inside the grid */
+          /* Style the images inside the grid Dont delete*/
           .column img {
-            opacity: 0.8; 
+            opacity: 1; 
             cursor: pointer; 
           }
-          
-          .column img:hover {
-            opacity: 1;
-          }
+      
           
           /* Clear floats after the columns */
           .row:after {
@@ -192,17 +185,8 @@ img {
           
           /* The expanding image container */
           .container {
-            position: relative;
-            display: none;
-          }
-          
-          /* Expanding image text */
-          #imgtext {
-            position: absolute;
-            bottom: 15px;
-            left: 15px;
-            color: white;
-            font-size: 20px;
+            position:sticky;
+            display:contents;
           }
           
           /* Closable button inside the expanded image */
