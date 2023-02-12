@@ -4,62 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="indexstyle.css">
-    <title>Mukrang's dating space</title>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-    <link rel="stylesheet" href="indexstyle.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div  class="navbar">
-          <a class="active" href="index.html">Home</a>
-    
-          <a href="News.html">News</a>
-          
-          <a href="Contact.html">Contact</a>
-          
-          <a href="About.html">About</a>
-  
-          <a href="videos.html">videos</a>
-  
-          <a href="gallery.html">Gallery</a>
+   <header>
+     <img class="logo" src="images/zyro-image.png" alt="logo">
+     <img class="log" src="images/zyro-image.png" alt="logo">
 
-    </div>
-    <script>
-      const navbar = document.querySelector('.navbar');
-let top = navbar.offsetTop;
-function stickynavbar() {
-  if (window.scrollY >= top) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-window.addEventListener('scroll', stickynavbar);
-    </script>
-    <img id="nice" src="zyro-image.png" alt="logo">
-    <div class="main">
-      <br>
-      <br>
-      <br>
-        <h1>The Jobless And Loveless Graduate</h1>
-        <br>
-        <br>
-        <br>
-        <img class="sui" src="mukrang's photo/IMG-20200406-WA0017.jpg" alt="Mukrang">
-      
-        <p>A recent graduate, 
-            this individual is on the hunt for both a job and love. Despite not having the stability of a job, 
-            they have a positive outlook on life and are always looking for new opportunities. 
-            They are highly educated and driven, but also understand the importance of balancing work and personal life. 
-            When not focusing on finding employment, this person enjoys trying new things and meeting new people. 
-            They have a big heart and are seeking a deep, meaningful connection with someone who shares their values and interests. 
-            Ultimately, this jobless graduate is on a journey to not only find their next job, 
-            but also to find someone to share their life with. </p>
-      
-      </div>
-
-      
+      <nav>
+          <ul class="nav_links">
+             <a href="index.html">Home</a>
+             <a href="gallery.html">Gallery</a>
+             <a href="videos.html">Videos</a>
+             <a href="about.html">About</a>
+          </ul>
+      </nav>
+     <a class="cta" href="#"><button>Apply Here</button></a>
+    </header> 
+    <br>
+    <h1>The Jobless And Loveless Graduate</h1>
+    <br>
+    <img class="pho" src="images/IMG-20200406-WA0017.jpg">
+    <p>A recent graduate, 
+        this individual is on the hunt for both a job and love. Despite not having the stability of a job, 
+        they have a positive outlook on life and are always looking for new opportunities. 
+        They are highly educated and driven, but also understand the importance of balancing work and personal life. 
+        When not focusing on finding employment, this person enjoys trying new things and meeting new people. 
+        They have a big heart and are seeking a deep, meaningful connection with someone who shares their values and interests. 
+        Ultimately, this jobless graduate is on a journey to not only find their next job, 
+        but also to find someone to share their life with. 
+    </p>
 </body>
-
 </html>
