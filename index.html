@@ -26,7 +26,7 @@
         <div class="muk-u">
             <h3>Hello, I'm</h3>
             <h1>Mukrang Terang</h1>
-            <h3>And i am <span class="isssh"></span></h3>
+            <h3>And i am <span id="typed"></span></h3>
             <p>A recent graduate,  this individual is on the hunt for both a job and love. Despite not having the stability of a job,  </p>
           <div class="social-media">
             <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -42,12 +42,13 @@
     </section>
     <script src="typed.js"></script>
      <script>
-        var typed = new Typed ('.isssh',{
-           strings: ['Jobless', 'Loveless', 'Depressed'],
-                typeSpeed: 100,
-                backSpeed: 100,
-                backDelay: 1000,
-                loop: true
+        var typed = new Typed('#typed', {
+           strings: [
+          'Aman Singh Aswal'
+          ],
+           typeSpeed: 50,
+         backSpeed: 80,
+          loop: true
         });
      </script>    
     <footer class="create">
