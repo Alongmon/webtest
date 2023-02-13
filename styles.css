@@ -69,8 +69,8 @@ button:hover {
     margin-top: 80px;
     margin-right: 60px;
     margin-left: 100px;
-    width: 15%;
-    height: 15%;
+    width: 600px;
+    height: auto;
 }
 .meh {
     margin-top: 100px;
@@ -103,8 +103,10 @@ button:hover {
     align-items: center;
     padding: 70px 10% 0;
     z-index: 100;
-
-
+}
+.muk-pho {
+    max-width: 100px;
+}
 .muk-u {
     max-width: 600px;
 }
@@ -181,7 +183,4 @@ button:hover {
     display: flex;
     padding: 5px;
     background-color: black;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
