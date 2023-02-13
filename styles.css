@@ -26,7 +26,7 @@ header {
 }
 .logo {
     cursor: pointer;
-    width: 200px;
+    width: 400px;
     animation: slideRight 1s ease forwards;
 }
 
@@ -91,6 +91,7 @@ button:hover {
     bottom: 40px;
     right: 40px;
     object-fit: scale-down;
+    width: 10%;
     
 }
 .muk {
