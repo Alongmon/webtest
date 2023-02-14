@@ -70,11 +70,11 @@ button:hover {
     margin-top: 80px;
     margin-right: 60px;
     margin-left: 100px;
-    width: 15%;
-    height: 15%;
+    width: 22%;
+    height: 22%;
 }
 .meh {
-    margin-top: 100px;
+    padding: 5%;
 }
 
 .main {
